@@ -1,5 +1,4 @@
 // Question 3.5
-package lab2hueber.java;
 
 import java.util.Scanner;
 
