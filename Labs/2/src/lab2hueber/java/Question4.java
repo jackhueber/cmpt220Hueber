@@ -36,5 +36,4 @@ public class Question4 {
 		}
 		System.out.println(letter + " is a " + type);
 	}
-
 }
