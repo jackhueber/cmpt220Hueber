@@ -29,7 +29,7 @@ public class Question1 {
 		}
 		System.out.println("The number of positives is: " + positive);
 		System.out.println("The number of negatives is: " + negative);
-		System.out.println("The total is: " + (positive + negative));
-		System.out.println("The average is: " + (sum / (positive + negative)));
+		System.out.println("The total is: " + (positive + negative)); //JA: The total should be sum
+		System.out.println("The average is: " + (sum / (positive + negative))); // JA: The division is integer. You need to force it to be double.
 		}
 }
