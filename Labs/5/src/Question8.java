@@ -4,9 +4,9 @@ public class Question8 {
 	public static void main(String[] args) {
         int[][] myMatrix = newMatrix(4, 4);
         printMatrix(myMatrix);
-        int[] maxIndices = getMaxIndices(myMatrix);
-        System.out.println("The largest row index: " + maxIndices[0]);
-        System.out.println("The largest column index: " + maxIndices[1]);
+        int[] maxIndex = getMaxIndices(myMatrix);
+        System.out.println("The largest row index: " + maxIndex[0]);
+        System.out.println("The largest column index: " + maxIndex[1]);
     }
 
 	//Method for printing the matrix
