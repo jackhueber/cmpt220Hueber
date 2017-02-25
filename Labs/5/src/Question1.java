@@ -8,7 +8,7 @@ public class Question1 {
 		int integer = 0;
 		for (int i = 1; i < array.length; i++) {
 			if (array[i] < array[integer]) {
-				integer = 1;
+				integer = 1; // JA: This should be integer = i
 			}
 		}
 		return integer;
