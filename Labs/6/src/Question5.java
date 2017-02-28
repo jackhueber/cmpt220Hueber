@@ -10,6 +10,7 @@ public class Question5 {
         System.out.println(location.toString());
     }
 
+	//Enter the format of the array
     private static int[] promptArraySize() {
         int[] size = new int[2];
         Scanner input = new Scanner(System.in);
@@ -20,6 +21,7 @@ public class Question5 {
         return size;
     }
 
+    //Enter the array
     private static double[][] prompt2DDoubleArray(int rows, int columns) {
         double[][] m = new double[rows][columns];
         Scanner input = new Scanner(System.in);
@@ -31,6 +33,6 @@ public class Question5 {
         }
         return m;
     }
-	}
+}
 
 
