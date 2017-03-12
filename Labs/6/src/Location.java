@@ -4,7 +4,7 @@ public class Location {
 	int column;
 	double maxValue;
 	
-	Location(int row, int coulmn, double maxValue) {
+	Location(int row, int column, double maxValue) { //JA: Typo
 		this.row = row;
 		this.column = column;
 		this.maxValue = maxValue;
