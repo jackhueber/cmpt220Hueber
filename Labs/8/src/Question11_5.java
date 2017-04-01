@@ -14,6 +14,10 @@ public class Question11_5 {
         System.out.println("Course: " + course.getCourseName());
         System.out.println("Students: " + Arrays.toString(course.getStudents()));
         System.out.println("Student count: " + course.getNumberOfStudents());
+		//JA
+		course.dropStudent("Luke");
+        System.out.println("Students: " + Arrays.toString(course.getStudents()));
+        System.out.println("Student count: " + course.getNumberOfStudents());
     }
 }
 
